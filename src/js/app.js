@@ -1,3 +1,6 @@
-import sayHello from './lib/sayHello.js';
+import './animator';
 
-sayHello();
+import paginator from './paginator';
+import './navi';
+
+new paginator();
